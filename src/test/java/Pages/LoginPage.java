@@ -1,3 +1,5 @@
+package Pages;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -6,13 +8,13 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage{
 
     @FindBy(id = "email")
-    WebElement txtEmail;
+    public WebElement txtEmail;
 
     @FindBy(id = "password")
-    WebElement txtPassword;
+    public WebElement txtPassword;
 
     @FindBy(css = "[type=submit]")
-    WebElement btnLogin;
+    public WebElement btnLogin;
 
     public LoginPage(WebDriver driver){
         PageFactory.initElements(driver, this);

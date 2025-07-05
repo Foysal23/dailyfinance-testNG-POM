@@ -1,14 +1,15 @@
+package testRunner;
+
+import Config.Setup;
+import Pages.LoginPage;
+import org.json.simple.JSONArray;
+import org.json.simple.parser.JSONParser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Actions;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import javax.naming.ldap.Control;
-
-public class LoginTestRunner extends Setup{
+public class LoginTestRunner extends Setup {
 
     @Test(priority = 1, description = "Admin login with wrong creds")
     public void loginWithWrongCred(){
