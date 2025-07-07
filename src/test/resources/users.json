@@ -46,5 +46,55 @@
     "phoneNumber": "01721649147",
     "address": "Suite 542 430 Aufderhar Drives, East Sergiomouth, AZ 85515-3785",
     "email": "charmaine.hermann@gmail.com"
+  },
+  {
+    "firstName": "Cole",
+    "password": "1234",
+    "phoneNumber": "01721719153",
+    "email": "ivana.bayer@gmail.com"
+  },
+  {
+    "firstName": "Todd",
+    "lastName": "Harris",
+    "password": "1234",
+    "phoneNumber": "01721462549",
+    "address": "Apt. 128 432 Terrilyn Spur, Conroyland, NY 54988",
+    "email": "nathan.tromp@gmail.com"
+  },
+  {
+    "firstName": "Francisco",
+    "lastName": "Beer",
+    "password": "1234",
+    "phoneNumber": "01721946968",
+    "address": "Apt. 204 7906 Scottie Neck, North Eddieton, OH 72991",
+    "email": "kyoko.fadel@gmail.com"
+  },
+  {
+    "firstName": "Maurice",
+    "lastName": "Boyle",
+    "password": "1234",
+    "phoneNumber": "01721372054",
+    "address": "Suite 224 875 Davis Ferry, Port Lon, WA 27098",
+    "email": "cherrie.marks@gmail.com"
+  },
+  {
+    "firstName": "Nydia",
+    "password": "1234",
+    "phoneNumber": "01721961621",
+    "email": "candida.mosciski@gmail.com"
+  },
+  {
+    "firstName": "Wilbert",
+    "lastName": "Nitzsche",
+    "password": "1234",
+    "phoneNumber": "01721365084",
+    "address": "01926 Harber Route, Port Tessie, NH 42427-6133",
+    "email": "alvaro.bergstrom@gmail.com"
+  },
+  {
+    "firstName": "Christopher",
+    "password": "1234",
+    "phoneNumber": "01721473891",
+    "email": "weldon.abernathy@gmail.com"
   }
 ]

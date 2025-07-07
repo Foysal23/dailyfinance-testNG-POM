@@ -1,5 +1,6 @@
 package Pages;
 
+import Config.UserModel;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -44,15 +45,16 @@ public class RegistrationPage {
 
     }
 
-    public void doRegistration(String firstname, String lastname, String email, String password, String phonenumber, String address){
-        txtFirstName.sendKeys(firstname);
-        txtLastName.sendKeys(lastname);
-        txtEmail.sendKeys(email);
-        txtPassword.sendKeys(password);
-        txtPhoneNumber.sendKeys(phonenumber);
-        txtAddress.sendKeys(address);
+    public void doRegistration(UserModel UserModel){
+        txtFirstName.sendKeys(UserModel.getFirstname());
+        txtLastName.sendKeys(UserModel.getLastname()!=null?UserModel.getLastname():"");
+        txtEmail.sendKeys(UserModel.getEmail());
+        txtPassword.sendKeys(UserModel.getPassword());
+        txtPhoneNumber.sendKeys(UserModel.getPhonenumber());
+        txtAddress.sendKeys(UserModel.getAddress()!=null? UserModel.getAddress() : "");
         rbGender.get(0).click();
         chkAcceptTerms.click();
         btnSubmitReg.click();
-    }   
+    }
+
 }
