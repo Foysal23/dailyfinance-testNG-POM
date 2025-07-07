@@ -1,1 +1,50 @@
-[{"firstName":"Leslie","lastName":"Wilderman","password":"1234","phoneNumber":"01721148048","address":"2759 Kulas Station, South Travis, FL 27875-1076","email":"colby.hermiston@gmail.com"},{"firstName":"Dalton","lastName":"Carter","password":"1234","phoneNumber":"01721444190","address":"Suite 484 9310 Edgardo Haven, South Piper, VA 84183-4325","email":"winnie.bergnaum@gmail.com"},{"firstName":"Joe","lastName":"Balistreri","password":"1234","phoneNumber":"01721676323","address":"Suite 415 882 Aufderhar Crossroad, Millerhaven, IL 07034","email":"xavier.murray@gmail.com"}]
+[
+  {
+    "firstName": "Leslie",
+    "lastName": "Wilderman",
+    "password": "1234",
+    "phoneNumber": "01721148048",
+    "address": "2759 Kulas Station, South Travis, FL 27875-1076",
+    "email": "colby.hermiston@gmail.com"
+  },
+  {
+    "firstName": "Dalton",
+    "lastName": "Carter",
+    "password": "1234",
+    "phoneNumber": "01721444190",
+    "address": "Suite 484 9310 Edgardo Haven, South Piper, VA 84183-4325",
+    "email": "winnie.bergnaum@gmail.com"
+  },
+  {
+    "firstName": "Joe",
+    "lastName": "Balistreri",
+    "password": "1234",
+    "phoneNumber": "01721676323",
+    "address": "Suite 415 882 Aufderhar Crossroad, Millerhaven, IL 07034",
+    "email": "xavier.murray@gmail.com"
+  },
+  {
+    "firstName": "Dong",
+    "lastName": "Reinger",
+    "password": "1234",
+    "phoneNumber": "01721854881",
+    "address": "Suite 830 5628 Jenna Loaf, North Sherie, HI 52167",
+    "email": "mae.simonis@gmail.com"
+  },
+  {
+    "firstName": "Karrie",
+    "lastName": "Jacobi",
+    "password": "1234",
+    "phoneNumber": "01721920896",
+    "address": "Apt. 242 93799 Samual Light, Port Cameronside, NV 97177",
+    "email": "elin.wilkinson@gmail.com"
+  },
+  {
+    "firstName": "Darwin",
+    "lastName": "Heller",
+    "password": "1234",
+    "phoneNumber": "01721649147",
+    "address": "Suite 542 430 Aufderhar Drives, East Sergiomouth, AZ 85515-3785",
+    "email": "charmaine.hermann@gmail.com"
+  }
+]
