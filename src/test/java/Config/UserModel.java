@@ -69,7 +69,6 @@ public class UserModel {
         this.password=password;
         this.phonenumber=phonenumber;
         this.address=address;
-
     }
 
     public UserModel(){

@@ -21,8 +21,21 @@ dependencies {
 
     // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
     implementation("com.googlecode.json-simple:json-simple:1.1.1")
+
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-csv
+    implementation("org.apache.commons:commons-csv:1.14.0")
 }
 
-test {
-    useJUnitPlatform()
+test{
+    useTestNG(){
+        if (project.hasProperty("username") && project.hasProperty("password")){
+        systemProperties.put("username",project.property("username"))
+        systemProperties.put("password",project.property("password"))
+        print(project.property("username"))
+        print(project.property("password"))
+        }
+
+        suites "src/test/resources/suite.xml"
+
+    }
 }

@@ -19,7 +19,7 @@ import java.time.Duration;
 
 public class RegistrationTestRunner extends Setup {
 
-    @Test(priority = 1, description = "user can register providing all details")
+    @Test(priority = 1, description = "user can register providing all details", groups = "smoke")
     public void userRegistrationByAllFields() throws InterruptedException, IOException, ParseException {
 
         RegistrationPage userReg = new RegistrationPage(driver);
@@ -54,10 +54,12 @@ public class RegistrationTestRunner extends Setup {
         userObj.put("address",address);
 
         Utils.saveUserInfo("./src/test/resources/users.json",userObj);
+
     }
 
     @Test(priority = 2, description = "User can register only by providing mandatory info")
     public void userRegByMandatoryFields() throws IOException, ParseException, InterruptedException {
+
         Thread.sleep(4000); //used it this time as the toast takes a bit longer to disappear at times
         RegistrationPage userReg = new RegistrationPage(driver);
         Faker faker = new Faker();
@@ -79,6 +81,7 @@ public class RegistrationTestRunner extends Setup {
         doRegAssertion();
 
         JSONObject userObj = new JSONObject();
+
         userObj.put("firstName",firstName);
         userObj.put("email",email);
         userObj.put("password",password);
@@ -89,7 +92,8 @@ public class RegistrationTestRunner extends Setup {
     }
 
     public void doRegAssertion() throws InterruptedException {
-        Thread.sleep(3000); //update: my system is slow so had to use it, as it was failing before to catch the toast
+
+        Thread.sleep(3000); //update: my system is slow so had to use it, as it was failing earlier to catch the toast
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("Toastify__toast-body")));
         String successMessageActual = driver.findElement(By.className("Toastify__toast-body")).getText();

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<suite name="DailyFinance Automation">
+<!--    <test name="User Login">-->
+<!--        <classes>-->
+<!--&lt;!&ndash;            <groups>&ndash;&gt;-->
+<!--&lt;!&ndash;                <run>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <include name="smoke"></include>&ndash;&gt;-->
+<!--&lt;!&ndash;                </run>&ndash;&gt;-->
+<!--&lt;!&ndash;            </groups>&ndash;&gt;-->
+<!--            <class name="testRunner.LoginTestRunner"></class>-->
+<!--        </classes>-->
+
+<!--    </test>-->
+<!--    <test name="User Registration">-->
+<!--        <classes>-->
+<!--&lt;!&ndash;            <groups>&ndash;&gt;-->
+<!--&lt;!&ndash;                <run>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <include name="smoke"></include>&ndash;&gt;-->
+<!--&lt;!&ndash;                </run>&ndash;&gt;-->
+<!--&lt;!&ndash;            </groups>&ndash;&gt;-->
+<!--            <class name="testRunner.RegistrationTestRunner"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="add cost">
+    <classes>
+        <class name ="testRunner.DashboardTestRunner" >
+
+        </class>
+    </classes>
+    </test>
+</suite>

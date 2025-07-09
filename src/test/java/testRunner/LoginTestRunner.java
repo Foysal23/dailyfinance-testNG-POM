@@ -32,7 +32,7 @@ public class LoginTestRunner extends Setup {
         clearCreds();
     }
 
-    @Test(priority = 2, description = "Admin login with right creds" )
+    @Test(priority = 2, description = "Admin login with right creds", groups = "smoke")
     public void adminLogin(){
         LoginPage loginpage = new LoginPage(driver);
         loginpage.doLogin("admin@test.com", "admin123");
