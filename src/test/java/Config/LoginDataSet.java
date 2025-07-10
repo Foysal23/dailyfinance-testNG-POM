@@ -14,7 +14,7 @@ public class LoginDataSet {
 
     @DataProvider(name = "LoginCSVData")
     public Object[][] getCSVData() throws IOException {
-        String filePath=".src/test/resources/users.csv";
+        String filePath="./src/test/resources/users.csv";
         List<Object> data= new ArrayList<>();
         CSVParser csvParser= new CSVParser(new FileReader(filePath), CSVFormat.DEFAULT.withFirstRecordAsHeader());
 

@@ -11,5 +11,6 @@ public class LoginCSVDataset extends Setup {
     public void doLogin(String email,String password){
         LoginPage loginPage = new LoginPage(driver);
         loginPage.doLogin(email,password);
+        loginPage.doLogOut();
     }
 }

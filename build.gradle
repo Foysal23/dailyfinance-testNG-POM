@@ -24,6 +24,9 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.apache.commons/commons-csv
     implementation("org.apache.commons:commons-csv:1.14.0")
+
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
+    implementation("io.qameta.allure:allure-testng:2.29.1")
 }
 
 test{
