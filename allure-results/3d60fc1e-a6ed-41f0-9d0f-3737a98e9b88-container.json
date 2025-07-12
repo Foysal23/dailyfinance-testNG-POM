@@ -1,0 +1,1 @@
+{"uuid":"3d60fc1e-a6ed-41f0-9d0f-3737a98e9b88","name":"TestNG-PageObjectModel","children":["e31ecd2e-6cbd-4acc-8c58-502f8cc6b3b8"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1752310321581,"stop":1752310328535}],"afters":[],"start":1752310321528,"stop":1752310332565}

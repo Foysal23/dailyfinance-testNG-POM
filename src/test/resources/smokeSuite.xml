@@ -2,22 +2,22 @@
 <suite name="DailyFinance Automation">
     <test name="User Login">
         <classes>
-<!--            <groups>-->
-<!--                <run>-->
-<!--                    <include name="smoke"></include>-->
-<!--                </run>-->
-<!--            </groups>-->
+            <groups>
+                <run>
+                    <include name="smoke"></include>
+                </run>
+            </groups>
             <class name="testRunner.LoginTestRunner"></class>
         </classes>
 
     </test>
     <test name="User Registration">
         <classes>
-<!--            <groups>-->
-<!--                <run>-->
-<!--                    <include name="smoke"></include>-->
-<!--                </run>-->
-<!--            </groups>-->
+            <groups>
+                <run>
+                    <include name="smoke"></include>
+                </run>
+            </groups>
             <class name="testRunner.RegistrationTestRunner"></class>
         </classes>
     </test>

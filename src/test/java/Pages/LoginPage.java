@@ -22,7 +22,7 @@ public class LoginPage{
     public WebElement btnprofileIcon;
 
     @FindBy(css = "[role=menuitem]")
-    public List<WebElement> btnLogOut;
+    public List<WebElement> btnProfileMenuItem;
 
     public LoginPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -36,7 +36,7 @@ public class LoginPage{
 
     public void doLogOut(){
         btnprofileIcon.click();
-        btnLogOut.get(1).click();
+        btnProfileMenuItem.get(1).click();
 
     }
 
