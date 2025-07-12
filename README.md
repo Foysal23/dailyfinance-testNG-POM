@@ -8,7 +8,7 @@
 - Allure
 
 
-# Output
+## Output
 
 <img width="1920" height="917" alt="image" src="https://github.com/user-attachments/assets/b6b0c3e6-37a4-4779-838e-112295ecf30e" />
 
