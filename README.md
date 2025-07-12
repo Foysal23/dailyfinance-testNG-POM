@@ -2,7 +2,7 @@
 
 ## I have automated CRUD functionalities of Dailyfinance website using Page Object Model design pattern
 
-## Technologies I have user
+## Technologies I have used
 - Selenium
 - TestNG
 - Allure
