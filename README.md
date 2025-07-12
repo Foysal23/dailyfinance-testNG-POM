@@ -1,4 +1,4 @@
-#Daily Finance Automation
+# Daily Finance Automation
 
 ## I have automated CRUD functionalities of Dailyfinance website using Page Object Model design pattern
 
